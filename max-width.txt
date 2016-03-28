@@ -1,0 +1,16 @@
+max-width
+
+
+Menggunakan max-width daripada width pada situasi ini akan meningkatkan penanganan browser pada jendela yang kecil. Ini penting ketika membuat website yang dapat digunakan pada perangkat mobile. 
+
+Ngomong-ngomong, max-width udah di suport sama kebanyakan browser termasuk IE7+ jadi jangan takut untuk memakainya.
+
+Contoh penggunaan max-width:
+===================
+#main {
+  max-width: 600px;
+  margin: 0 auto; 
+}
+===================
+
+kode --> max-width.html

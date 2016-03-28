@@ -1,0 +1,12 @@
+media queries
+
+"Responsive design" adalah sebuah strategi untuk membuat situs yang "menjawab" browser dan peralatan yang digunakan untuk menampilkan situs agar terlihat keren bagaimanapun juga.
+
+Media query adalah tool paling powerful untuk membuat responsive design ini. lihat contoh penerapan media query pada kode --> media-queries.html
+
+-----
+catatan:
+Selengkapnya :
+https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries
+
+kalau butuh inspirasi menerapkan query agar tampilan tetap kece : http://mediaqueri.es/

@@ -1,0 +1,5 @@
+no layout
+
+Tidak memiliki layout sama sekali oke oke saja selama yang dibutuhkan adalah hanya sebuah kolom besar yang berisi konten (seperti teks ini). Namun, jika browser pengguna sangat lebar maka akan sangat menyusahkan ketika membaca baris yang telalu panjang. Coba atur ukuran layar (melebar) nanti kamu akan tau deh.
+
+Sebelum memecahkan masalah ini, pastikan kamu sudah tau tentang properti "display".

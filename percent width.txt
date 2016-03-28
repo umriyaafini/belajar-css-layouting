@@ -1,0 +1,9 @@
+percent width
+
+Persen adalah pengukuran unit yang relatif terhadap blok yang memuatnya. Ini bagus digunakan untuk gambar seperti pada contoh kode --> percent-width.html
+
+
+------
+percent width layout 
+
+Kamu juga dapat menggunakan percent width untuk membuat layout, namun kamu harus agak bersusah payah(misalnya: melakukan penghitungan) contohnya bisa kamu lihat di kode --> percent-width-layout.html

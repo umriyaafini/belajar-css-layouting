@@ -1,0 +1,73 @@
+position
+
+Untuk membuat layout yang kompleks kita butuh properti position. Poperti "position" ini memiliki banyak kemungkinan value, dan namanya juga agak ambigu dan hampir mustahil untuk diingat.
+
+
+"static"
+Properti "static" merupakan value default. sebuah elemen dengan "position:static" tidak memiliki posisi tertentu. 
+
+contoh kode:
+===================
+.static {
+  position: static;
+}
+===================
+
+
+-------
+"relative"
+Properti "relative" memiliki kelakuan seperti "static" dengan beberapa properti tambahan. Mengatur properti "top","bottom","left" akan mengatur posisi elemen relatif dari posisi aslinya. Konten lainnya akan dihiraukan sehingga tidak akan mengikuti elemen "relative".
+
+contoh kode:
+===================
+.relative1 {
+  position: relative;
+}
+.relative2 {
+  position: relative;
+  top: -20px;
+  left: 20px;
+  background-color: white;
+  width: 500px;
+}
+===================
+
+
+-------
+"fixed"
+Sebuah elemen "fixed" relatif terhadap viewport, yang mana berarti akan tetap berada di tempat yang sama bahkan ketika halaman di scroll. Sama seperti "relatve", properti "top","bottom", "right" dan "left" digunakan.
+
+contoh kode:
+===================
+.fixed {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 200px;
+  background-color: white;
+}
+===================
+
+
+-------
+"absolute"
+Properti absolute merupakan value properti position yang paling tricky. Berkelakuan seperti "fixed" namun dia relative terhadap elemen diatasnya.
+
+contoh kode:
+===================
+.relative {
+  position: relative;
+  width: 600px;
+  height: 400px;
+}
+.absolute {
+  position: absolute;
+  top: 120px;
+  right: 0;
+  width: 300px;
+  height: 200px;
+}
+===================
+
+
+penerapan kode ada di kode --> position.html

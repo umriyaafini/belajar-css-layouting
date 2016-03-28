@@ -1,0 +1,10 @@
+flexbox
+
+Layout baru mode "flexbox" diseimbangkan (sebelumnya terdapat banyak versi) untuk mendefinisikan kembali bagaimana kita membuat layout di CSS. Sayangnya akhir-akhir ini spesifikasinya sudah sangat berubah, sehingga pengaplikasiannya berbeda ditiap browser. (Tenang saja sekarang kebanyakan browser udah support kok)
+
+Untuk mengetahui lebih jauh tentang flexbox kamu bisa mulai dari 
+css-tricks.com/old-flexbox-and-new-flexbox/
+dan
+weblog.bocoup.com/dive-into-flexbox/
+
+kode --> flexbox.html

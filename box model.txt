@@ -1,0 +1,5 @@
+box model
+
+Saat kita membicarakan tentang width, jangan lupakan tentang box model. Ketika mengatur "width" kesebuah elemen, sebenernya elemen tersebut bisa menjadi lebih besar dari seharusnya, yaitu ketika kita mengatur border dan padding yang akan menarik/melebarkan elemen melebihi lebar yang seharusnya.
+
+kode --> box-model.html

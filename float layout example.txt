@@ -1,0 +1,3 @@
+float layout example
+
+Sering dijumpai penulis kode membuat layout dengan memanfaatkan property "float". kode --> float-layout-contoh.html contoh layout menggunakan float.

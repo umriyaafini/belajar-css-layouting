@@ -1,0 +1,11 @@
+float
+
+Properti CSS lain yang juga digunakan untuk membuat layout adalah "float". Float digunakan untuk membungkus text disekitar gambar seperti pada kode --> float.html
+
+kode yang digunakan pada gambar:
+===================
+img {
+  float: right;
+  margin: 0 0 1em 1em;
+}
+===================

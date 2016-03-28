@@ -1,0 +1,16 @@
+box sizing
+
+Kebiasaan asli dari box model pada akhirnya melahirkan properti CSS baru yaitu "box-sizing". ketika mengatur "box-sizing: border-box" pada sebuah elemen, maka padding dan border pada elemen tersebut tidak lagi akan melebar melebihi ukuran sebenarnya.
+
+kode --> box-sizing.html
+
+Karena box-sizing ini sangat bermanfaat, jika ingin mengaplikasikan box-sizing kesemua elemen gunakan kode berikut:
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+catatan:
+-webkit- dan -moz- adalah browser prefix untuk cross browser support.

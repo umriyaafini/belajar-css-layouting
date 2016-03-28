@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+<head>
+	<title>contoh float layout</title>
+	<style type="text/css">
+		*{
+			-webkit-box-sizing: border-box;
+		     -moz-box-sizing: border-box;
+		          box-sizing: border-box;
+		}.container {
+		  position: relative;
+		  border:2px solid green;
+		}
+		nav {
+		  border:2px solid yellow;
+		}
+		section {
+		  border:2px solid red;
+		  padding: 5px 10px;
+		}
+		.clearfix {
+		  overflow: auto;
+		  zoom: 1;
+		}
+		@media screen and (min-width:600px) {
+		  nav {
+		    float: left;
+		    width: 25%;
+		  }
+		  section {
+		    margin-left: 25%;
+		  }
+		}
+		@media screen and (max-width:599px) {
+		  nav li {
+		    display: inline;
+		  }
+		}
+	</style>
+</head>
+<body>
+	<div class="container clearfix">
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Menu</a></li>
+				<li><a href="#">Schedule</a></li>
+				<li><a href="#">Contanc</a></li>
+			</ul>
+		</nav>
+		<section>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</section>
+		<section>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</section>
+		<section>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</section>
+	</div>
+	<!-- coba kecilkan jendela browser kurang dari 600px -->
+</body>
+</html

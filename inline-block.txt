@@ -1,0 +1,28 @@
+inline-block
+
+Kamu dapat membuat tampilan kotak grid yang dapat mengisi jendela browser dan membungkusnya dengan manis. Sejak dulu ini dapat dilakukan dengan float, namun sekarang dengan menggunakan "inline-block" pekerjaan ini menjadi lebih mudah. Elemen "inline-block" seperti elemen "inline" namun dapat memiliki panjang dan lebar.
+
+kode saat menggunakan float:
+===================
+.box {
+  float: left;
+  width: 200px;
+  height: 100px;
+  margin: 1em;
+}
+.after-box {
+  clear: left; //memerlukan clear, kode kurang rapideh
+}
+===================
+
+kode yang lebih baik:
+===================
+.box2 {
+  display: inline-block;
+  width: 200px;
+  height: 100px;
+  margin: 1em;
+}
+===================
+
+kode --> inline-block.html

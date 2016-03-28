@@ -1,0 +1,20 @@
+clear
+
+Properti CSS "clear" penting untuk mengatur tingkah laku "float".
+
+contoh kode:
+===================
+.box {
+  float: left;
+  width: 200px;
+  height: 100px;
+  margin: 1em;
+}
+.after-box {
+  clear: left;
+}
+===================
+
+value dari properti "clear" yang juga dapat digunakan adalah "right" dan "both".
+
+kode --> clear.html

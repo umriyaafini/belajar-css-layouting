@@ -1,0 +1,18 @@
+column
+
+Ada seperangkat CSS properti baru yang membuatmu dapat membuat multi kolom dengan mudah yaitu column.
+
+contoh kode 
+===================
+.three-column {
+  padding: 1em;
+  -moz-column-count: 3;
+  -moz-column-gap: 1em;
+  -webkit-column-count: 3;
+  -webkit-column-gap: 1em;
+  column-count: 3;
+  column-gap: 1em;
+}  
+===================
+
+kode --> column.html

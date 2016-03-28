@@ -1,0 +1,15 @@
+margin-auto
+
+Mengatur width dengan elemen "block" akan mencegah melebar ke kanan dan kiri dari kontainer. lalu mengatur "margin" kanan dan kiri ke "auto" akan membuat kontainer rata secara horisontal (menengah). Lebar elemen akan sebesar "width" yang diatur lalu sisa ruang akan dibagi menjadi dua sama besar untuk margin kanan dan kiri.
+
+Namun jika jendela browser terlalu sempit atau terlalu kecil dari elemen yang dibuat maka browser akan membuat scrollbar horizontal pada jendela browser.
+
+Contoh pengaturan margin auto:
+===================
+#main {
+  width: 600px;
+  margin: 0 auto; 
+}
+===================
+
+kode -> margin-auto.html

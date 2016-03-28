@@ -1,0 +1,9 @@
+inline-block layout
+
+Kamu juga dapat menggunakan "inline-block" untuk membuat layout. hal yang perlu diingat:
+- elemen "inline-block" dipengatuhi oleh "vertical-align" jadi mungkin perlu mengatur "top" untuk "vertical-align"nya.
+- kamu perlu mengatur width tiap elemennya
+- akan ada celah diantara kolom jika pada htmlnya ada whitespacenya (spasi, enter, tab)
+
+contoh layoutnya dapat dilihat di kode --> inline-block-layout.html
+

@@ -1,0 +1,26 @@
+properti "display"
+
+"display" adalah properti dalam CSS yang paling penting untuk pengaturan layout. Tiap elemen memiliki default value untuk properti "display" ini tergantung tipe tiap elemennya. Biasanya nilai default elemen-elemen tersebut adalah "block" atau kalau enggak "inline". Sebuah block elemen biasanya disebut block-level elemen. Sebuah inline elemen selalu disebut inline elemen.
+
+-------
+"block"
+
+Elemen yang menggunakan display block adalah div, h1, h2, h3 dll
+
+-------
+"inline"
+
+<span> merupakan standar elemen yang menggunakan inline. inline elemen akan membungkus teks (elemen) didalamnya tanpa mengganggu paragraf (elemen induk). Elemen lain yang secara default memiliki value display inline adalah <a>
+
+-------
+"none"
+
+Properti "display" value yang umum lainnya adalah "none". Elemen yang memiliki value "none" akan dianggap tidak ada oleh browser.
+
+
+Penerapan value2 display diatas dapat dilihatp disini:
+kode -> display-contoh.html
+
+
+catatan:
+Selebihnya untuk "display" value lainnya : https://developer.mozilla.org/en-US/docs/Web/CSS/display

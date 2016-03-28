@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+	<title>box sizing</title>
+	<style type="text/css">
+		.simple {
+		  width: 500px;
+		  margin: 20px auto;
+		  border: 2px solid cyan;
+		  -webkit-box-sizing: border-box;
+		     -moz-box-sizing: border-box;
+		          box-sizing: border-box;
+		}
+
+		.fancy {
+		  width: 500px;
+		  margin: 20px auto;
+		  padding: 50px;
+		  border: 10px solid cyan;
+		  -webkit-box-sizing: border-box;
+		     -moz-box-sizing: border-box;
+		          box-sizing: border-box;
+		}
+	</style>
+</head>
+<body>
+	<div class="simple">
+		keep it simple, stupid!
+	</div>
+	<div class="fancy">
+		I'm fancy
+	</div>
+</body>
+</html
